@@ -86,7 +86,7 @@ foreach ($routesCount as $route => $count) {
     }
 }
 
-echo "Mise à jour des logs terminée.";
+echo ("Mise à jour des logs terminée à " . $formattedNow);
 
 function loadEnv($path)
 {
